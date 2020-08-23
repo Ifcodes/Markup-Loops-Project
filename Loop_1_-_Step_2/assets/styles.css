@@ -87,4 +87,15 @@ body{
 .dots div:not(.selected){
   background-color: rgba(0, 0, 0, .2);
 }
+.pay-meth:hover{
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, .1);
+}
+.next-btn:focus{
+  transform: scale(2);
+
+}
+.next-btn:hover{
+  cursor: pointer;
+  transform: scale(.99)
 }
