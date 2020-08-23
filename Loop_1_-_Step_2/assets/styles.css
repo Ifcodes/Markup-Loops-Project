@@ -92,10 +92,10 @@ body{
   background-color: rgba(0, 0, 0, .1);
 }
 .next-btn:focus{
-  transform: scale(2);
-
+  transform: scale(.99);
+  cursor: pointer;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, .7);
 }
 .next-btn:hover{
   cursor: pointer;
-  transform: scale(.99)
 }

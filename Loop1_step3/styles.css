@@ -7,6 +7,11 @@ body{
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 .card{
+  background-image: url(../Loop1_step3/img/bicycle.png);
+  background-position: center 10rem;
+  background-size: 100%;
+  background-repeat: no-repeat;
+
   background-color: white;
   max-width: 40vw;
   min-height: 55vh;
@@ -59,5 +64,5 @@ body{
   bottom: 25rem;
   left: 26rem;
   margin: auto;
-  img
+  
 }
