@@ -1,0 +1,105 @@
+body{
+  background-color: rgb(195,212,226);
+
+}
+.card{
+  max-width: 30vw;
+  min-height: 70vh;
+  margin: auto;
+  margin-top: 4rem;
+  box-sizing: border-box;
+  width: 100%;
+}
+.header{
+  background-color: rgb(106,150,216);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: .9rem 2rem;
+  font-size: .9rem;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.day{
+  max-width: 100%;
+  border-bottom: 1px solid rgba(0,0,0, .3);
+  margin: 0 2rem;
+  
+ 
+}
+.day p{
+  position: relative;
+  top: 1.3rem;
+  left: 9.5rem;
+  padding: 0;
+  width: 7vw;
+  font-weight: bold;
+  color: rgba(0,0,0, .3);
+  text-align: center;
+  text-transform: uppercase;
+}
+.left{
+ 
+  text-align: left;
+  padding-top: .7rem;
+  margin: 0 2rem;
+}
+.right{
+  
+  text-align: right;
+  padding-top: .7rem;
+  margin: 0 2rem;
+}
+.right span{
+  display: block;
+}
+.left span{
+  display: block;
+}
+.callout--right{
+  max-width: 15vw;
+  color: black;
+  font-weight: bold;
+  padding: 1rem;
+  background-color: whitesmoke;
+  text-align: left;
+  margin-left: 10rem;
+}
+.callout--left{
+  max-width: 15vw;
+  color: rgb(0, 0, 0, 0.7);
+  font-weight: bold;
+  padding: 1rem;
+  background-color: rgba(195,212,226, .5);
+  text-align: left;
+}
+.blocked{
+  background-color: pink;
+  margin-top: 1rem;
+}
+.txt-input{
+  width: 87%;
+  border-top: 1px solid grey;
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 2rem 0 2rem;
+}
+.txt-input input{
+  border: none;
+  width: 80%;
+  font-size: 1.2rem;
+
+}
+.send{
+  color: blue;
+  font-weight: bolder;
+  font-size: 1.1rem;
+  border: none;
+  background-color: white;
+  text-transform: uppercase;
+}
+.txt-input input:focus{
+  outline: none;
+}
