@@ -85,21 +85,27 @@ body{
   display: flex;
   justify-content: space-between;
   margin: 2rem 2rem 0 2rem;
+  padding-top: 1rem;
 }
 .txt-input input{
   border: none;
   width: 80%;
   font-size: 1.2rem;
-
+  
 }
 .send{
   color: blue;
   font-weight: bolder;
-  font-size: 1.1rem;
+  font-size: 1rem;
   border: none;
   background-color: white;
   text-transform: uppercase;
+
 }
 .txt-input input:focus{
   outline: none;
+}
+.send:hover{
+  background-color: whitesmoke;
+  cursor: pointer;
 }
