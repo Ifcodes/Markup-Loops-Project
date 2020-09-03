@@ -66,6 +66,7 @@ body{
   background-color: whitesmoke;
   text-align: left;
   margin-left: 10rem;
+  position: relative;
 }
 .callout--left{
   max-width: 15vw;
@@ -108,4 +109,12 @@ body{
 .send:hover{
   background-color: whitesmoke;
   cursor: pointer;
+}
+.callout--right:not(.blocked)::after{
+  content: "";
+  position: absolute;
+  bottom: 55.5px;
+  right: -14px;
+  border: 4px solid transparent;
+  border-left: 10px solid whitesmoke;
 }
