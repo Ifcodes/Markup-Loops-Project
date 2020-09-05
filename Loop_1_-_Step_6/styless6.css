@@ -22,8 +22,11 @@ img{
 .pg-content{
   background-color: white;
   display: block;
-  padding: 2rem 4rem;
   border-radius: 5px 0 0 5px;
+  box-sizing: border-box;
+}
+.header{
+  padding: 2rem 5rem;
 }
 .header h1{
   font-weight: 350;
@@ -41,7 +44,7 @@ img{
 .btns{
   display: flex;
   flex-direction: column;
-  margin-top: 3rem;
+  padding: 1rem 5rem;
 }
 .btns button{
   margin-top: 1.5rem;
@@ -63,12 +66,12 @@ button img{
   padding-right: 16rem;
 }
 .footer{
-  box-sizing: border-box;
+  width: 100%;
   border-top: 1px solid rgba(0,0,0, .1);
   display: flex;
   justify-content: space-around;
-  margin-top: 5rem;
-  padding-top: 2rem;
+  margin: 5rem 0;
+  padding: 2rem 2rem 0;
 }
 .footer span{
   font-weight: 500;
