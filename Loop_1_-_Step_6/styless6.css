@@ -1,0 +1,94 @@
+html,body{
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color: rgb(76,81,93);
+  max-width: 100vw;
+}
+img{
+  max-width: 100%;
+  min-height: inherit;
+}
+.card{
+  display: grid;
+  grid-template-columns: 65% 35%;
+  margin: 5rem auto;
+  max-width: 80vw;
+  min-height: 80vh;
+  
+}
+.pg-content{
+  background-color: white;
+  display: block;
+  padding: 2rem 4rem;
+  border-radius: 5px 0 0 5px;
+}
+.header h1{
+  font-weight: 350;
+  font-size: 2.5rem;
+  margin-bottom: .5rem;
+}
+.intro{
+  color: rgba(0,0,0, .5);
+  font-size: .8rem;
+}
+.intro span{
+  display: block;
+  color: rgba(0,0,0, .5);
+}
+.btns{
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+}
+.btns button{
+  margin-top: 1.5rem;
+  display: flex;
+  align-items: center;
+  padding: 1.1rem 1rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: rgba(0,0,0, .5);
+  font-size: .7rem;
+  background-color: white;
+  border: 1px solid rgba(0,0,0, .1);
+  border-radius: 5px;
+  text-align: center;
+}
+
+button img{
+  width: 1.2vw;
+  padding-right: 16rem;
+}
+.footer{
+  box-sizing: border-box;
+  border-top: 1px solid rgba(0,0,0, .1);
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5rem;
+  padding-top: 2rem;
+}
+.footer span{
+  font-weight: 500;
+  font-size: .8rem;
+}
+.footer a{
+  text-decoration: none;
+  color: rgba(0,0,0, .5);
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: .8rem;
+}
+.card img{
+  border-radius: 0 5px 5px 0;
+}
+.btns button:hover{
+  background-color: rgba(0,0,0, .1);
+  cursor: pointer;
+}
+a:hover{
+  background-color: rgba(0,0,0, .1);
+  padding: .5rem .5rem;
+}
