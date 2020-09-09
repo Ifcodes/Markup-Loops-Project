@@ -6,10 +6,11 @@ html,body{
 }
 
 body{
-  background: url(../Loop_1_-_Step_5/img/background.jpg);
+  background-image: url(../Loop_1_-_Step_5/img/background.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-blend-mode: overlay;
+  object-fit: contain;
 }
 
 .card{
