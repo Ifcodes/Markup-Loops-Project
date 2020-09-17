@@ -25,7 +25,7 @@ img{
   background-position: center;
   background-size: cover;
   color: rgba(0, 0, 0, .4);
-  padding: 2rem 2rem;
+  padding: 1rem 1rem;
   
 }
 .btn-cont{
@@ -34,10 +34,11 @@ img{
   font-weight: 800;
   font-size: .85rem;
   width: 25%;
+  padding: .9rem;
 }
-.btn-cont img{
+/* .btn-cont img{
   padding-right: .5rem;
-}
+} */
 .content{
   background-color: white;
   /* padding: 2.5rem 3rem; */
@@ -53,10 +54,13 @@ nav{
   font-size: 1rem;
   font-weight: 500;
   color: rgba(0, 0, 0, .4);
-  margin-top: 1.5rem;
+  margin: 1.5rem 2rem 0 0;
+  padding-right: 1rem;
 }
 nav div{
-  padding: 0 1.5rem;
+  padding: 0 1rem;
+  text-transform: uppercase;
+  font-size: .8rem;
 }
 .selected{
   color: black;
@@ -144,6 +148,10 @@ nav div{
  
 }
 .btn-cont:hover{
+  background-color: rgba(0, 0, 0, .1);
+  cursor: pointer;
+}
+.figcaption:hover{
   background-color: rgba(0, 0, 0, .1);
   cursor: pointer;
 }

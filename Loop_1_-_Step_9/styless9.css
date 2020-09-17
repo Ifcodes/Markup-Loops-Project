@@ -1,0 +1,74 @@
+
+html,body{
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+body{
+  width: 100vw;
+  background-color: rgb(247,205,116);
+}
+.card-cont{
+  max-width: 50vw;
+  height: 55vh;
+  display: grid;
+  grid-template-columns: 40% 60%;
+  background-color: white;
+  margin: 8rem auto;
+  overflow: hidden;
+}
+.wallet-sec{
+  padding: 2rem 2rem;
+  background-color: rgb(242,242,242);
+  overflow: auto;
+  scrollbar-width: none;
+}
+.wallet-sec::-webkit-scrollbar{
+  display: none;
+}
+.title{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 16rem;
+}
+.title img{
+  width: 1.5rem;
+  height: 1.5rem;
+}
+.debit-cards{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: 1.5rem;
+  padding: .5rem 1rem;
+  background-color: rgb(255,255,255);
+  width: 14rem;
+  border-radius: 5px;
+}
+.debit-cards img{
+  width: 3rem;
+  height: 3rem;
+}
+.debit-cards span{
+  padding-top: .6rem;
+}
+.transac-sec{
+  overflow: auto;
+  padding: 3rem 2rem;
+}
+.balance{
+  display: flex;
+  justify-content: space-between;
+}
+.val-bal{
+  font-weight: bold;
+}
+.transactions{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2rem;
+}
+.sub-descp{
+  display: block;
+}
