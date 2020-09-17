@@ -1,4 +1,6 @@
-
+*{
+  box-sizing: border-box;
+}
 html,body{
   padding: 0;
   margin: 0;
@@ -12,7 +14,7 @@ body{
   max-width: 50vw;
   height: 55vh;
   display: grid;
-  grid-template-columns: 40% 60%;
+  grid-template-columns: 35% 65%;
   background-color: white;
   margin: 8rem auto;
   overflow: hidden;
@@ -20,17 +22,16 @@ body{
 .wallet-sec{
   padding: 2rem 2rem;
   background-color: rgb(242,242,242);
+  overflow: hidden;
+}
+.wallet-sec:hover{
   overflow: auto;
-  scrollbar-width: none;
-}
-.wallet-sec::-webkit-scrollbar{
-  display: none;
-}
+}  
 .title{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 16rem;
+  width: 14rem;
 }
 .title img{
   width: 1.5rem;
@@ -43,7 +44,7 @@ body{
   margin-top: 1.5rem;
   padding: .5rem 1rem;
   background-color: rgb(255,255,255);
-  width: 14rem;
+  width: 12rem;
   border-radius: 5px;
 }
 .debit-cards img{
@@ -54,21 +55,78 @@ body{
   padding-top: .6rem;
 }
 .transac-sec{
+  overflow: hidden;
+  padding: 2rem 2rem;
+}
+.transac-sec:hover{
   overflow: auto;
-  padding: 3rem 2rem;
 }
 .balance{
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding-bottom: 2rem;
+}
+.balance span{
+  font-size: 1.2rem;
 }
 .val-bal{
   font-weight: bold;
+  font-size: 1.6rem;
 }
 .transactions{
   display: flex;
-  justify-content: space-between;
+  align-items: center;
+}
+.transactions div:not(.icons){
+  flex-grow: 1;
   margin-top: 2rem;
+} 
+.icons{
+  margin-top: 2rem;
+}
+.transac-descp{
+  margin-left: 1rem;
+}
+.transac-amount{
+  margin-left: 1.3rem;
+  color: rgb(134,151,198);
+}
+.plusAmount{
+  color: rgb(137,206,94)
+}
+.minus-icon,.plus-icon{
+  border-radius: 50%;
+  border: 1px solid rgb(0,0,0, .2);
+  width: 20px;
+  height: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0;
+}
+.minus-icon img{
+  width: 15px;
+}
+.plus-icon img{
+  width: 15px;
+}
+.transac-amount{
+  text-align: right;
 }
 .sub-descp{
   display: block;
+}
+.transac-descp span:not(.sub-descp){
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+.sub-descp{
+  color: rgb(0,0,0, .4);
+  font-size: .8rem;
+  padding-top: .5rem;
+}
+.debit-cards:hover{
+  border: 2px solid rgb(135,147,198);
 }
