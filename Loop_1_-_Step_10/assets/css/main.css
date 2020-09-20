@@ -37,8 +37,8 @@ nav{
 .navcont{
   margin-right: 1rem;
 }
-.navcont span{
-  padding-right: 1rem;
+.navcont a{
+  padding: .5rem 1rem;
   color: rgba(0,0,0, .5);
   font-size: .85rem;
   font-weight: 500;
@@ -150,7 +150,8 @@ blockquote{
   background-size: cover;
   background-position: center;
   height: 90vh;
-  background-blend-mode: screen;
+  background-blend-mode: overlay;
+  opacity: .9;
   margin-top: 4rem;
 
 }
@@ -164,5 +165,15 @@ blockquote{
   color: rgb(255,255,255);
   font-size: .85rem;
   border-left: 2px solid white;
-  
+}
+.keynote-btn:hover{
+  background-color: rgba(0,0,0, .2);
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+}
+a:hover{
+  background-color: rgba(0,0,0, .1);
+  cursor: pointer;
 }
